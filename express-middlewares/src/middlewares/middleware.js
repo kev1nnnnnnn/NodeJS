@@ -1,6 +1,9 @@
+//funcionalidades de fluxo de requisições,
+
+
 exports.middlewareGlobal = (req, res, next) => {
     console.log('primeiro middleware');
-    next();
+    next(); //responsável por chamar o próximo middleware.
 };
 
 exports.outroMiddleware = (req, res, next) => {
