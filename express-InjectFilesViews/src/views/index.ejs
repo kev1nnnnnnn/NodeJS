@@ -1,0 +1,28 @@
+<%- include('includes/header'); %>
+  <section class="container">
+    <h1>
+     <!-- <%- typeof titulo !== "undefined" ? titulo : undefined %> -->
+
+     <!-- <% numeros.forEach(num => { %>
+        <%= num %><br>
+     <%}) %> -->
+
+     <!--for classico, se utiliza let
+      <% for(let i = 0; i < numeros.length; i++) { %>
+        <%= numeros[i] %> <br>
+      <%} %>-->
+        <%=titulo%>
+    </h1>
+
+    <form action="/" method="post">
+
+      <label >Cliente</label>
+      <input type="text" name="cliente">
+      <button type="submit" >Enviar</button> 
+
+    </form>
+
+    <p id="demo"></p>
+  </section>
+
+<%- include('includes/footer') %>
