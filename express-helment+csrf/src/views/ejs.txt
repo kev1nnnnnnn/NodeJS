@@ -1,0 +1,9 @@
+<%- Controle de fuxo (if, for...)  %>
+<%= Imprime escapando caracteres  %>
+<%- Imprimi se escapar caracteres  %>
+<%# %>
+<% incude('caminho/arquivo');  %>
+
+<% if(condicao) { %>
+    <% exibir %>
+<% } %>
